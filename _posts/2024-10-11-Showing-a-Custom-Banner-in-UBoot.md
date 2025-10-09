@@ -119,4 +119,4 @@ This avoids fragile macro quoting and allows arbitrary banner content.
 ---
 
 <!-- Image placeholder: replace the path below with your final banner image or diagram path. This image must be the last item in the post. -->
-![banner integration diagram](/path/to/your/image.png)
+<!--![banner integration diagram](/path/to/your/image.png) -->

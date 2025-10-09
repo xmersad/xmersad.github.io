@@ -93,5 +93,5 @@ You can extend this pattern to try additional indices (e.g., `"2"`, `"3"`), or i
 ---
 
 <!-- Image placeholder: the image must be the last element. Replace the path below with your image path. -->
-![dynamic mmc search diagram](/path/to/your/image.png)
-
+<!-- ![dynamic mmc search diagram](/path/to/your/image.png)
+-->

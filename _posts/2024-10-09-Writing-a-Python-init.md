@@ -119,5 +119,5 @@ This post explains whether and how you can implement the system `init` (PID 1) i
 ---
 
 <!-- Image placeholder: replace the path below with your actual image path. This image must be the last item in the post. -->
-![init diagram](/path/to/your/image.png)
-
+<!--![init diagram](/path/to/your/image.png)
+-->

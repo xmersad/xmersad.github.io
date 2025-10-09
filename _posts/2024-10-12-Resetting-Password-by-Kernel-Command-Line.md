@@ -103,5 +103,5 @@ You need to reset a local login password but cannot log in. Normal recovery opti
 ---
 
 <!-- Image placeholder: replace the path below with your image path if needed. This image must be the last item in the post. -->
-![recovery diagram](/path/to/your/image.png)
-
+<!-- ![recovery diagram](/path/to/your/image.png)
+-->
