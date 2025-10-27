@@ -1,8 +1,8 @@
 ---
 title: "Processing Kernel Command Line Parameters"
-date: 2025-10-27
-categories: [Kernel, Boot]
-tags: [kernel-cmdline, early_param, init]
+date: 2024-10-20
+categories: [Kernel]
+tags: [cmdline]
 ---
 
 <div dir="ltr">
