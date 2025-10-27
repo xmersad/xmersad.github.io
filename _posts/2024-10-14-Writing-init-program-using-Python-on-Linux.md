@@ -3,6 +3,7 @@ title: "Writing init program using Python on Linux"
 date: 2024-10-14
 categories: [Embedded-Linux]
 tags: [init]
+
 ---
 
 
@@ -24,4 +25,5 @@ Bundle the Python script into a single executable with PyInstaller and place it 
 
 **Tip:** Ensure `/dev` exists — the kernel usually mounts `devtmpfs` on `/dev`. If `devtmpfs` is disabled or you use an initramfs, create `/dev/urandom` (device node) in the rootfs before starting Python; otherwise Python may block or fail. Also keep a small fallback init (e.g., BusyBox) for recovery if Python cannot start.
 
+![Init-by-python picture](/assets/img/init_by_python.png){: w="700" h="400" }
 
