@@ -5,7 +5,6 @@ categories: [Kernel]
 tags: [cmdline]
 ---
 
-<div dir="ltr">
 
 Kernel command line is basically a string passed from the bootloader to the kernel to tune behavior or pass settings at boot time.
 
