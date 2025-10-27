@@ -49,5 +49,5 @@ This simple modification allows U-Boot to dynamically find the correct MMC devic
 eliminating the need to repeatedly edit the device tree or rebuild for each configuration change.
 
 
-![Reset-password](/assets/img/reset_password.png)
+![Reset-password](/assets/img/dynamic_searching.png)
 
