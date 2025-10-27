@@ -1,6 +1,6 @@
 ---
 title: "Understanding Thread and Kernel Mode Transition"
-date: 2025-10-27
+date: 2024-10-18
 categories: [Kernel]
 tags: [thread, kernel-mode, syscall, context-switch]
 ---
