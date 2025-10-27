@@ -53,9 +53,9 @@ Place that code in the kernel source (for example, `init/main.c`), rebuild the k
 
 3. **Boot the kernel** and check the early boot messages either through a serial console or by running:
 
-```bash
-dmesg | grep cmdlind 
-```
+    ```bash
+    dmesg | grep cmdlind 
+    ```
 You should see an output like: [    0.123456] cmdline: test=123...
 
 This confirms that the kernel successfully parsed the `test=123` parameter and executed your `early_param` handler during the boot process.  
