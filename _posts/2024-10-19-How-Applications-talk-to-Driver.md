@@ -1,7 +1,7 @@
 ---
 title: "How Applications Talk to Drivers"
 date: 2024-10-19
-categories: [Drivers]
+categories: [Device-Driver]
 tags: [application, driver, subsystem]
 ---
 

@@ -1,8 +1,8 @@
 ---
 title: "HAL and the Abstraction Layer for Register Access"
 date: 2024-10-18
-categories: [Device-Drivers]
-tags: [HAL, driver, abstraction]
+categories: [Device-Driver]
+tags: [driver, abstraction]
 ---
 
 
