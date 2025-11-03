@@ -60,3 +60,7 @@ You should see an output like: [    0.123456] cmdline: test=123...
 
 This confirms that the kernel successfully parsed the `test=123` parameter and executed your `early_param` handler during the boot process.  
 You can now extend this handler to parse numbers, initialize global variables, or trigger any early configuration logic needed for your specific setup.
+
+![Process-cmdline](/assets/img/Process-kernel-cmd-parameter.png)
+
+

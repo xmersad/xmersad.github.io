@@ -46,4 +46,4 @@ I created a general, boot-time auto-adjust mechanism that:
 - Script (bash): https://mega.nz/file/46tCmaAY#o57eQxyM_-iFh1MAGwsUMJW264ESE8LG8J2-yXlxuPI  
 - Documentation for the script: https://mega.nz/file/UjlUSLiS#tnx-g-EC0YlZp1s3e2JP034hNCtvINt37Pr99K4KKl0
 
-
+![Auto-fdt-addr](/assets/img/Auto-fdt-addr-adj.png)

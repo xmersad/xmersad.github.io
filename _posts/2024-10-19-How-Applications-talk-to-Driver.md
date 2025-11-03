@@ -37,3 +37,5 @@ When the subsystem needs to open a socket for that device, it calls `dev->openso
 - Sometimes drivers and userspace are tightly coupled (printer drivers or dedicated user-space drivers); that’s a special case.  
 - The example above omits many kernel details (namespace lookup, device tables, locking, error mapping) — the goal is to show the overall pattern. For deeper reading, check materials on the Linux Device Model and driver ops tables.
 
+
+![How-app-talk-to-driver](/assets/img/How-App-talk-to-driver.png)

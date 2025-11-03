@@ -58,3 +58,5 @@ Call syscall number `462` with argument `21`, expect the kernel to return `42`.
 
 In short, the process is simple: **implement → assign → build → boot → test**.  
 This pattern defines how user-space applications safely extend kernel capabilities through controlled interfaces.
+
+![Custom-sysall](/assets/img/Add-custom-syscall.png)

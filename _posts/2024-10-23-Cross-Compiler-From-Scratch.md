@@ -60,3 +60,4 @@ https://github.com/xmersad/Cross-Compiler-From-Scratch
 ## Summary
 Building a cross toolchain from scratch means: **binutils → kernel headers → bootstrap GCC → libc → final GCC**. The process is staged because components rely on each other. Use the provided repo if you want a repeatable ARM64/RPi4 example.
 
+![Crosscompiler-from-scratch](/assets/img/Cross-compiler-from-scratch.png)

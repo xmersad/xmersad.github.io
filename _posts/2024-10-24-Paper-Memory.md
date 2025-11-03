@@ -75,3 +75,5 @@ If you want reproducibility, choose one of two paths:
 
 Both approaches teach you exactly **where execution really begins**.
 
+![Paper-memory](/assets/img/paper-memory.png)
+
