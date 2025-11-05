@@ -1,7 +1,7 @@
 ---
 title: "Resetting Login Password by Changing Kernel Command Line"
 date: 2024-10-16
-categories: [Kernel Command Line]
+categories: [Embedded-Linux]
 tags: [init]
 ---
 
