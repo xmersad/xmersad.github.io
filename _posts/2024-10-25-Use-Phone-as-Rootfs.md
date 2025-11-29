@@ -1,4 +1,3 @@
-```markdown
 ---
 title: Using Mobile Phone as Rootfs
 date: 2024-10-25 
