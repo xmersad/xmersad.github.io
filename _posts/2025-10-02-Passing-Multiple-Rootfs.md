@@ -150,41 +150,6 @@ The fallback mechanism introduces minimal overhead:
 - Each attempt fails fast with appropriate timeouts
 - No impact on successful first-attempt mounts
 
-## Alternative Approaches
-
-You might be thinking: "Couldn't this be done with initramfs or the bootloader?"
-
-### Initramfs Approach
-Yes, absolutely. An initramfs script could attempt multiple mounts before switching to the real root. However:
-- Requires maintaining separate initramfs for each device
-- Increases boot complexity
-- Adds extra boot time even in success cases
-
-### Bootloader Approach
-Bootloaders like U-Boot can also implement fallback logic. But:
-- Requires bootloader modifications
-- Less flexible for runtime conditions
-- Harder to update on deployed devices
-
-### Why Kernel-Level?
-
-Implementing this at the kernel level offers several advantages:
-- Single location for fallback logic
-- Works across different bootloaders
-- Can respond to runtime conditions (like network availability)
-- Easier to debug with kernel logging
-- No additional boot components required
-
-## Use Cases Beyond Development
-
-While initially developed for unstable rootfs during development, this mechanism has proven valuable in production:
-
-1. **Aging Hardware**: Graceful degradation as flash memory wears out
-2. **Network Boot with Local Fallback**: Try diskless boot first, fall back to local storage
-3. **A/B Update Systems**: Try new rootfs, automatically revert to old one if corrupted
-4. **Factory Reset**: Normal rootfs fails → boot from recovery partition
-5. **Multi-Boot Configurations**: Try different filesystem types or locations
-
 ## Conclusion
 
 The `root_pr` parameter provides a robust, kernel-level mechanism for rootfs fallback. While alternative approaches exist, implementing this directly in the kernel offers unique advantages in terms of simplicity and reliability.
