@@ -1,7 +1,7 @@
 ---
 title: "Controlling a Laptop Cooling Fan Through the Audio Jack"
 date: 2025-10-01
-catgories: [Hardware]
+categories: [Hardware]
 tags: [hardwareg, aux, temperature-control, audio-signal-processing]
 ---
 
