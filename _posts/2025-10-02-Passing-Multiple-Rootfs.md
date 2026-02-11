@@ -159,6 +159,16 @@ For embedded Linux developers, this feature can transform a potential brick into
 > **Note:** This implementation is a custom kernel modification. If you're interested in using it, you'll need to patch and rebuild your kernel. The concept could potentially be proposed as an upstream kernel feature if there's sufficient community interest.
 {: .prompt-tip }
 
+## Patch and Documentation
+
+Enablement package (patch and documentation):
+
+```text
+https://mega.nz/file/BrNxDCCS#kU7jfym0ITwEYks-ISY3Ld8vClgJbUa7mva9Oe3-6cI
+```
+
+---
+
 ## Example Configurations
 
 Here are some practical configurations for different scenarios:
