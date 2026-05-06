@@ -45,7 +45,7 @@ if (dev < 0) {
 
 ## Result
 
-This simple modification allows U-Boot to dynamically find the correct MMC device,  
+This simple modification allows U-Boot to dynamically find the correct MMC device,
 eliminating the need to repeatedly edit the device tree or rebuild for each configuration change.
 
 
