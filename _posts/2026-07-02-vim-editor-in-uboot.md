@@ -1,6 +1,6 @@
 ---
 title: "A Vim-like Editor for U-Boot"
-date: 2026-07-08
+date: 2026-07-02
 categories: [U-Boot]
 tags: [u-boot, vim]
 ---

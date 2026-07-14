@@ -1,6 +1,6 @@
 ---
 title: "RAM Initialization on x86-64 Systems"
-date: 2026-07-08
+date: 2026-07-13
 categories: [Firmware]
 tags: [x86-64, uefi, firmware, memory-init]
 ---

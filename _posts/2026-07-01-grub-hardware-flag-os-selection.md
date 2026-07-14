@@ -1,6 +1,6 @@
 ---
 title: "Automatic OS Selection in GRUB Using a Hardware Flag"
-date: 2026-07-08
+date: 2026-07-01
 categories: [GRUB]
 tags: [grub, dual-boot, usb, bootloader]
 ---
