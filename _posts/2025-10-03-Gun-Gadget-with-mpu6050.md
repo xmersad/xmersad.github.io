@@ -1,5 +1,5 @@
 ---
-title: "Building aa Motion-Controlled Gun for Gaming with MPU6050"
+title: "Building a Motion-Controlled Gun for Gaming with MPU6050"
 date: 2025-10-03
 categories: [Hardware]
 tags: [mpu6050, arduino, gaming-controller, accelerometer, gyroscope]
